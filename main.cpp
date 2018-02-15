@@ -20,9 +20,9 @@ int main()
 
 
 
-cout << "Please enter your first name: " << endl; //gets using inputs
+cout << "What is your first name?" << endl; //gets using inputs
 cin >> firstn;
-cout << "Please enter your last name: " << endl;
+cout << "What is your last name?" << endl;
 cin >> lastn;
 cout << "Welcome, " << firstn[0] << "." << lastn[0] << "." << ", here is your fortune..." << endl;
 
@@ -38,7 +38,7 @@ cout << "your lucky number is " << lucky << endl;
 if (first == "a" || first == "A" || first == "e" || first == "E" || first == "i" || first == "I" || first == "o" || first == "O" || first == "u" || first == "U"  )  
 
     {
-    cout << "you destined to be famous!" << endl;
+    cout << "you are destined to be famous!" << endl;
 
 
 
